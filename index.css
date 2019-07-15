@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #010B19;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	padding: 50px 20px;
+	color: white;
+}
+
+#logo {
+	width: 100%;
+	max-width: 150px;
+	margin-bottom: 80px;
+}
+
+p {
+	max-width: 470px;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.6;
+}
+
+a {
+	font-family: 'Fira Mono', monospace;
+}
+
+.cta {
+	text-decoration: none;
+	font-size: 26px;
+	color: #2462E0;
+	border-bottom: 1px solid #2462E0;
+	margin-top: 60px;
+	transition: padding 300ms;
+}
+
+.cta:hover {
+	padding: 0 15px;
+	opacity: 0.7;
+}
