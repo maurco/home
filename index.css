@@ -13,6 +13,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	padding: 50px 20px;
+	font-family: 'Fira Sans', sans-serif;
 	color: white;
 }
 
@@ -22,11 +23,17 @@ body {
 	margin-bottom: 80px;
 }
 
+h1 {
+	max-width: 480px;
+	font-size: 26px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
 p {
-	max-width: 470px;
-	font-family: 'Fira Sans', sans-serif;
+	max-width: 480px;
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: 300;
 	line-height: 1.6;
 }
 
