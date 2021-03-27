@@ -1,1 +1,1 @@
-# Maurer Labs Home
+# Maur & Co.

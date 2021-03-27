@@ -5,52 +5,51 @@
 }
 
 body {
-	background: #010B19;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	width: 100vw;
 	height: 100vh;
-	padding: 50px 20px;
-	font-family: 'Fira Sans', sans-serif;
-	color: white;
-}
-
-#logo {
-	width: 100%;
-	max-width: 150px;
-	margin-bottom: 80px;
-}
-
-h1 {
-	max-width: 480px;
-	font-size: 26px;
-	font-weight: 500;
-	margin-bottom: 20px;
-}
-
-p {
-	max-width: 480px;
 	font-size: 18px;
-	font-weight: 300;
-	line-height: 1.6;
+	padding: 50px 20px;
+	font-family: 'Overpass', sans-serif;
+	background: #ffffff;
+	color: #171926;
 }
 
-a {
-	font-family: 'Fira Mono', monospace;
+.logo {
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 80px;
+	fill: #171926;
 }
 
 .cta {
+	padding: 14px 30px;
+	font-size: 1.2rem;
+	font-weight: 800;
 	text-decoration: none;
-	font-size: 26px;
-	color: #2462E0;
-	border-bottom: 1px solid #2462E0;
-	margin-top: 60px;
-	transition: padding 300ms;
+	background: #171926;
+	color: #ffffff;
 }
 
 .cta:hover {
-	padding: 0 15px;
-	opacity: 0.7;
+	opacity: 0.75;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #171926;
+		color: #ffffff;
+	}
+
+	.logo {
+		fill: #ffffff;
+	}
+
+	.cta {
+		background: #ffffff;
+		color: #171926;
+	}
 }
